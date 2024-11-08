@@ -45,7 +45,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-                <Button className="bg-green-600 text-white hover:bg-green-700 w-full sm:w-auto">
+                <Button className="bg-green-300 text-black hover:bg-green-700 w-full sm:w-auto">
                   Explore More
                 </Button>
                 <Button
@@ -96,7 +96,7 @@ export default function Home() {
               ].map((service, index) => (
                 <Card key={index} className="bg-gray-900 border-gray-800">
                   <CardHeader>
-                    <service.icon className="h-12 w-12 mb-4 text-green-500" />
+                    <service.icon className="h-12 w-12 mb-4 text-green-300" />
                     <CardTitle className="text-white text-xl">
                       {service.title}
                     </CardTitle>
@@ -129,7 +129,7 @@ export default function Home() {
                   key={index}
                   className="p-6 border border-gray-800 rounded-lg hover:bg-gray-800 transition-colors flex flex-col items-center justify-center gap-2"
                 >
-                  <tech.icon className="h-10 w-10 text-green-500" />
+                  <tech.icon className="h-10 w-10 text-green-300" />
                   <span>{tech.name}</span>
                 </div>
               ))}
@@ -137,7 +137,7 @@ export default function Home() {
             <div className="mt-12 text-center">
               <Link
                 href="#"
-                className="inline-flex items-center text-green-500 hover:text-green-400 text-lg"
+                className="inline-flex items-center text-green-300 hover:text-green-400 text-lg"
               >
                 Check out all Technologies&apos; candidates we have
                 <ChevronRight className="ml-2 h-5 w-5" />
@@ -206,10 +206,10 @@ export default function Home() {
                 <Card key={index} className="bg-gray-900 border-gray-800">
                   <CardHeader>
                     <CardTitle className="flex items-center text-white">
-                      <span className="text-green-500 mr-4 text-3xl font-bold">
+                      <span className="text-green-300 mr-4 text-3xl font-bold">
                         {item.step}
                       </span>
-                      <item.icon className="h-8 w-8 text-green-500 mr-2" />
+                      <item.icon className="h-8 w-8 text-green-300 mr-2" />
                       {item.title}
                     </CardTitle>
                   </CardHeader>
@@ -231,15 +231,15 @@ export default function Home() {
             </h2>
             <div className="max-w-[600px] mx-auto space-y-6">
               <div className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg">
-                <Send className="h-8 w-8 text-green-500 flex-shrink-0" />
+                <Send className="h-8 w-8 text-green-300 flex-shrink-0" />
                 <span className="text-lg">Contact@warriorsgit.com</span>
               </div>
               <div className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg">
-                <CheckCircle className="h-8 w-8 text-green-500 flex-shrink-0" />
+                <CheckCircle className="h-8 w-8 text-green-300 flex-shrink-0" />
                 <span className="text-lg">+1 302-231-1301</span>
               </div>
               <div className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg">
-                <Briefcase className="h-8 w-8 text-green-500 flex-shrink-0" />
+                <Briefcase className="h-8 w-8 text-green-300 flex-shrink-0" />
                 <span className="text-lg">
                   16192 Coastal Highway Lewes, DE 19958 USA
                 </span>
