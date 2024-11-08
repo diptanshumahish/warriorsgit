@@ -131,7 +131,7 @@ export default function Home() {
                 href="#"
                 className="inline-flex items-center text-green-500 hover:text-green-400"
               >
-                Check out all Technologies' candidates we have
+                Check out all Technologies&apos; candidates we have
                 <ChevronRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
