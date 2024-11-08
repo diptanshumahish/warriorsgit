@@ -7,12 +7,12 @@ import {
   Briefcase,
   Send,
   ChevronRight,
-  Github,
   Linkedin,
   Twitter,
   Laptop,
   Database,
   Server,
+  Stars,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,7 +34,7 @@ export default function Home() {
               <div className="flex flex-col gap-4 items-center">
               <iframe className="z-10" src="https://lottie.host/embed/ef228231-14db-4d35-80b7-53c339662811/5jxZHgfjTK.json"></iframe>
                 <div className="px-4 py-2 gap-4 rounded-lg text-xs border text-gray-200 tracking-wider w-fit border-green-300 flex items-center justify-center">
-                  <Users size={15} /> CUSTOMER SATISFACTION GUARANTEED!
+                  <Stars size={15} /> Delivering talent you can trust
                 </div>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
                   The Best IT Staffing Solutions
