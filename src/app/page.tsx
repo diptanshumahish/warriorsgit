@@ -32,6 +32,7 @@ export default function Home() {
           <div className="container flex items-center justify-center px-4 md:px-6 z-20 md:h-fit h-[90vh] ">
             <div className="flex flex-col items-center space-y-6 text-center">
               <div className="flex flex-col gap-4 items-center">
+              <iframe className="z-10" src="https://lottie.host/embed/ef228231-14db-4d35-80b7-53c339662811/5jxZHgfjTK.json"></iframe>
                 <div className="px-4 py-2 gap-4 rounded-lg text-xs border text-gray-200 tracking-wider w-fit border-green-300 flex items-center justify-center">
                   <Users size={15} /> CUSTOMER SATISFACTION GUARANTEED!
                 </div>
@@ -153,7 +154,7 @@ export default function Home() {
               Who We Are
             </h2>
             <p className="max-w-[800px] mx-auto text-gray-400 text-center mb-12 text-lg">
-              WarriorsGit provides quality IT talent with outstanding customer
+              Warriors GIT LLC provides quality IT talent with outstanding customer
               satisfaction along with innovative resource planning and staffing
               solutions. In this competitive era of digital, Information
               Technology talents need to perform under consistent stress with
@@ -250,7 +251,7 @@ export default function Home() {
       <footer className="w-full border-t flex items-center justify-center border-gray-800 py-8">
         <div className="container flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-center text-sm leading-loose text-gray-400">
-            © 2024 WarriorsGit LLC. All rights reserved.
+            © 2024 Warriors GIT LLC. All rights reserved.
           </p>
           <div className="flex items-center space-x-6">
             <Link href="#" className="text-gray-400 hover:text-green-400">

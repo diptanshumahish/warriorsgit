@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex h-14 items-center justify-between">
           <Link className="flex items-center space-x-2" href="/">
             <Image src="/logonew.png" height={32} width={32} alt='logo' />
-            <span className="font-bold">WarriorsGit</span>
+            <span className="font-bold">Warriors GIT LLC</span>
           </Link>
           <nav className="hidden md:flex gap-6">
             <NavLinks />
