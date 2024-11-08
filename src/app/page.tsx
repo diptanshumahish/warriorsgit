@@ -47,8 +47,12 @@ export default function Home() {
                 <Button className="bg-green-600 text-white hover:bg-green-700 w-full sm:w-auto">
                   Explore More
                 </Button>
-                <Button variant="outline" className="w-full sm:w-auto text-black">
-                  Contact Us
+                <Button
+                  asChild
+                  variant="outline"
+                  className="w-full sm:w-auto text-black"
+                >
+                  <Link href="/contact">Contact Us</Link>
                 </Button>
               </div>
             </div>
@@ -201,7 +205,9 @@ export default function Home() {
                 <Card key={index} className="bg-gray-900 border-gray-800">
                   <CardHeader>
                     <CardTitle className="flex items-center text-white">
-                      <span className="text-green-500 mr-4 text-3xl font-bold">{item.step}</span>
+                      <span className="text-green-500 mr-4 text-3xl font-bold">
+                        {item.step}
+                      </span>
                       <item.icon className="h-8 w-8 text-green-500 mr-2" />
                       {item.title}
                     </CardTitle>
@@ -233,7 +239,9 @@ export default function Home() {
               </div>
               <div className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg">
                 <Briefcase className="h-8 w-8 text-green-500 flex-shrink-0" />
-                <span className="text-lg">16192 Coastal Highway Lewes, DE 19958 USA</span>
+                <span className="text-lg">
+                  16192 Coastal Highway Lewes, DE 19958 USA
+                </span>
               </div>
             </div>
           </div>
@@ -253,7 +261,6 @@ export default function Home() {
               <Twitter className="h-6 w-6" />
               <span className="sr-only">Twitter</span>
             </Link>
-         
           </div>
         </div>
       </footer>
